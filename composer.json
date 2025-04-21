@@ -1,5 +1,8 @@
 {
-    "name": "benjosiah/smtp-express",
+    "name": "benjosiah/smtp-express-php",
+    "description": "PHP package for sending emails using SMTP Express API.",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "SmtpExpress\\": "src/"
@@ -12,6 +15,7 @@
         }
     ],
     "require": {
+        "php": "^8.0",
         "guzzlehttp/guzzle": "^7.9"
     }
 }
