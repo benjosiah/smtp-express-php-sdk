@@ -5,7 +5,6 @@ namespace SmtpExpress;
 use GuzzleHttp\Exception\GuzzleException;
 use SmtpExpress\Actions\SendEmail;
 use SmtpExpress\Mail\SendMail;
-use SmtpExpress\Mail\TemplateMail;
 use SmtpExpress\Exception\SmtpExpressException;
 
 class SMTPExpress
