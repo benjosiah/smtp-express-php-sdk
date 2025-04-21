@@ -22,7 +22,7 @@ The **SMTP Express PHP SDK** provides a simple, extensible way to send emails us
 Install via Composer:
 
 ```bash
-composer require tenotea/smtpexpress-php
+composer require benjosiah/smtp-express-php
 ```
 
 ## 🔧 Configuration
