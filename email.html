@@ -1,0 +1,84 @@
+<html>
+<head>
+    <style>
+
+        .container {
+            display: block;
+            padding: 20px;
+        }
+
+        a {
+            color: rgb(255,165,70);
+            text-decoration: none;
+        }
+
+        .logo-wrapper {
+            display: flex;
+            height: auto;
+            padding: 20px 0;
+            width: 300px;
+            background: rgb(255, 165, 70);
+            background: linear-gradient(135deg, rgba(255, 165, 70, 1) 0%, rgba(255, 195, 70, 1) 100%);
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 50%;
+        }
+
+        p {
+            margin: 40px 0;
+        }
+
+        span {
+            text-decoration: none;
+        }
+
+        .bottom-text {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="logo-wrapper">
+    <img
+            src="https://lh3.googleusercontent.com/fife/AAWUweVM2Ebe4aslP3ipbZ3ClkH_b0O7SOaZ3Sc0ZIn9v2Qrp-HCG4USWhEEp2frVy6VDfMo42cFXiADEJWE0gl2fETHMgiZBVsw2JDM8LIY7AHZG4JQ5Imm1TguABMseW2b1qPOpy85h-NiToRfDS0bITYXJ6IHXWfLtqu_Ecp0tC4HBWUSO7VAbOv0hzw4Q0mxM73jM7ffpE_YS3jI-9C2jLVyfvaWJw1obB3K7U4ZW_AQxbrGjPy8olgLBs7K-9dE1hpoFtYQdIcAFqGuw8At43MgbLD2IjYlidqHe1eHO7DhaWKt7PPZ14S6ch7UbrgQcxwytw4CnW-SceysGOGmTRLagREa9BbNwCH2nEWuyfNlcT35_vgXQtUtv_qDrJEfALeEKlWdOk3qiR5Z4LXHvle9L29S1mKkHfgO5KFzj7PIwhrTASQE3Ge4G3esnDnI6unjuvjY92bHwW091K2QQtaQKzA1n8dRHMDN-Z9HD0TUFacv96R2amfOE_nBsBIFK_7SebEPc0V6ub9cdhDaPPSoxBSy9wJG9revP_lvpMuLLbQUpOWfIAMjgNym7V-IQSWmA4b3C8kMSUFLfsI-TRM3fEois0RV0Y9i03-sCoHxaKjNyWbMMG8bN6SiA5xOQuosdm2PJi5NXS0MEhlZSKoE5ugaDFOi8UFo9zPGQ5bbwsPWnrl6cbHL2PMUe3T4ZdTThHAm03Kh_--PnvGGskzzXtgu7QhdJQHmxF7dEkwXdzjPxGz-hk37YhTV8YyLSPFOyNO9Vq3wxwtuURYl2LvGjZc8-JaVEuNL8WKmI9LdyEJ32lwphyhb9m_1XW0UbTRjR3s_C5NVRK5f1iZJ_NY0QJxW0ixXDkfazXvgD6T4LOIBbmcxgCZhBL4EYmqBhRrKYY8QdWt66WoGWanGBTjMD2gVbAtVuqpoZbTlfnMtwHln1l52F-yOqmZpsfxHIpdkX1dVQKyVFsmFd53sjSlFOmk8IvP_tLwqq2RIuaDgv46LrefbrHJ1IrCROM7Yf_Gi6fZxh4nO_sI-3sqLeHqWlwy5m6VkhUgskvY6WHEff9F8cnQWcKZYEw3uy_Nwxw7UInJ7XqQJtZ0njCcskVo8IMtj-EdtWXLfYrBmlr_lwVIadxQXMJ4r17vdqZMGczqvmlzm39X9U5RzatgI4Hb591bwJ4mOqapG9scfUZ6hRLe6iQXoHAiSnLAaBZCQ7yvdzxjme-0QfJd4SXvZs87XywHAutcfo3miP8qDfrZqyt7pNkQHUliv6wVLKCtmC_pe7iJe0w=w2538-h2136"
+    />
+</div>
+<div class="container">
+    <h1>Hi {{name}} ,</h1>
+    <h2>
+        You have been invited to join PMPplanner by
+    </h2>
+
+    <h3>
+        An account has been created for you. You will be
+        able to sign in using this e-mail address
+    </h3>
+
+    <h3>
+        You can set your password by clicking
+        <a
+                href="{{url}}"
+                target="_blank"
+                rel="noreferrer noopener"
+        >here</a
+        >
+    </h3>
+
+    <h3>
+        or by copying the following URL into your web
+        browser: <span>jj</span>
+    </h3>
+
+    <p>
+        If you did not request this email you can safely
+        ignore it.
+    </p>
+</div>
+<span class="bottom-text"> © 2023 PMPplanner </span>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "name": "benjosiah/smtp-express",
+    "autoload": {
+        "psr-4": {
+            "SmtpExpress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BenJosiah",
+            "email": "benjosiah90@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
