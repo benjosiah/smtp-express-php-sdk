@@ -1,6 +1,5 @@
 # SMTP Express PHP SDK
 
-# SMTP Express PHP SDK
 
 The **SMTP Express PHP SDK** provides a simple, extensible way to send emails using the [SMTP Express](https://smtpexpress.com) API from any PHP application.
 
